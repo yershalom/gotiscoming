@@ -1,0 +1,34 @@
+.clock {
+    height: 8rem;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    font-size: 110px;
+    font-family: sans-serif;
+    letter-spacing: 5px;
+    text-shadow: 0 0 10px #fff;
+    text-transform: uppercase;
+}
+
+.clock-header {
+    margin: 13px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.clock-sub-header {
+    margin-bottom: 10px;
+    font-size: 13px;
+    letter-spacing: initial;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

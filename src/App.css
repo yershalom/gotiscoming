@@ -1,0 +1,9 @@
+.App {
+  text-align: center;
+  min-height: 100vh;
+  background-image: url('./assets/night.jpg');
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
