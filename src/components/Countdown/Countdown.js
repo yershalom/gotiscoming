@@ -15,7 +15,7 @@ const defaultStyles = {
     justifyContent: 'center',
     alignItems: 'center',
     flexDirection: 'row',
-    fontSize: '210px',
+    fontSize: '150px',
     fontFamily: 'sans-serif',
     letterSpacing: '5px',
     textShadow: '0 0 10px #fff',
