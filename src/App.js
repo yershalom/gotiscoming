@@ -1,23 +1,22 @@
 import React, { PureComponent } from 'react';
 import './App.css';
 import Countdown from './components/Countdown/Countdown';
+import ReactGA from 'react-ga';
 
 class App extends PureComponent {
-  state = {
-    timeRemaining: 10000,
-  };
+  constructor() {
+    super();
+  }
 
   componentDidMount() {
-    this.timer = setInterval(() => {
-      this.setState({
-        timeRemaining: this.state.timeRemaining - 1,
-      });
-    }, 1000);
+    ReactGA.initialize('UA-133173024-1');
+    ReactGA.pageview('/');
+    ReactGA.event({
+      category: 'User',
+      action: 'Page view'
+    });
   }
 
-  componentWillUnmount() {
-    clearInterval(this.timer);
-  }
   render() {
     return (
       <div className={`App`}>
