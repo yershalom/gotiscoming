@@ -2,7 +2,7 @@
   "name": "gotiscoming",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://yershalom.github.io/gotiscoming",
+  "homepage": "https://yershalom.github.io/gotiscoming",
   "dependencies": {
     "react": "^16.7.0",
     "react-countdown-now": "^2.1.0",
