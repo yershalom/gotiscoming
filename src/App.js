@@ -10,6 +10,10 @@ class App extends PureComponent {
         <div>
           <Countdown />
         </div>
+        <footer>
+          <a href="https://github.com/yershalom/gotiscoming">GoT is Coming</a>
+          <br /><span>by</span> <a href="https://twitter.com/yershalom">@yershalom</a>
+        </footer>
       </div>
     );
   }

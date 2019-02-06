@@ -7,3 +7,19 @@
   justify-content: center;
   align-items: center;
 }
+
+footer {
+  position: fixed;
+  left: 10px;
+  bottom: 8px;
+  opacity: 0.4;
+  text-align: center;
+}
+
+footer span {
+  color: white;
+}
+
+footer a {
+  color: white;
+}
