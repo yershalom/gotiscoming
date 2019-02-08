@@ -1,6 +1,5 @@
 import React from 'react';
 import Countdowner from 'react-countdown-now';
-import './Countdown.css';
 
 const addZero = num => {
   return num.toString().length === 1 ? `0${num}` : num;
@@ -18,7 +17,8 @@ const defaultStyles = {
     fontSize: '150px',
     fontFamily: 'sans-serif',
     letterSpacing: '5px',
-    textShadow: '0 0 10px #fff',
+    color: '#F5F5F5',
+    textShadow: '2px 2px 15px #000000',
     textTransform: 'uppercase'
   },
   clockHeaderStyle: {
@@ -30,7 +30,7 @@ const defaultStyles = {
   },
   clockSubHeader: {
     marginBottom: '10px',
-    fontSize: '23px',
+    fontSize: '30px',
     letterSpacing: 'initial'
   }
 };
